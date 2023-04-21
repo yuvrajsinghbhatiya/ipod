@@ -1,0 +1,37 @@
+.upper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 320px;
+    background-color: #d8d8d8;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: inset 0px 5px 10px -5px rgba(0, 0, 0, 0.75), /* bottom */
+            inset -5px 0px 10px -5px rgba(0, 0, 0, 0.75), /* left */
+            inset 5px 0px 10px -5px rgba(0, 0, 0, 0.75); /* right */
+
+}
+
+
+  /* lower body css */
+
+  .lower{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 220px;
+    background-color: #d8d8d8;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: inset 0px -5px 10px -5px rgba(0, 0, 0, 0.75), /* top */
+              inset -5px 0px 10px -5px rgba(0, 0, 0, 0.75), /* left */
+              inset 5px 0px 10px -5px rgba(0, 0, 0, 0.75); /* right */
+
+
+}
+
+
